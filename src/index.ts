@@ -1,7 +1,7 @@
 class HelloWorld {
-  get(): boolean {
+  get(): string {
     // console.log('Hello');
-    return true;
+    return 'Hello';
   }
 }
 

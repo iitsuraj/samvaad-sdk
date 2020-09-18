@@ -1,9 +1,5 @@
 import HelloWorld from './index';
 
-test('should return Hello', () => {
-  expect(HelloWorld.get()).toBe(true);
+test('should return hello', () => {
+  expect(HelloWorld.get()).toBe('Hello');
 });
-
-// test('should return true given internal link', () => {
-//   expect(isInternalLink('/some-page')).toBe(true)
-// })
