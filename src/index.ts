@@ -1,7 +1,6 @@
 class HelloWorld {
   get(): string {
-    // console.log('Hello');
-    return 'Hello';
+    return 'Hello World';
   }
 }
 
