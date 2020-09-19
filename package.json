@@ -4,8 +4,8 @@
   "description": "samvaad-sdk",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/app.js",
-    "dev": "nodemon src/app.ts",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
     "build": "tsc -p .",
     "test": "jest",
     "lint": "npm run lint:js ",

@@ -1,5 +1,3 @@
-import HelloWorld from './index';
-
 test('should return hello', () => {
-  expect(HelloWorld.get()).toBe('Hello World');
+  expect('Hello World').toBe('Hello World');
 });
